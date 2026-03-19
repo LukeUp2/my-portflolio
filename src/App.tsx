@@ -37,7 +37,7 @@ function App() {
             href="mailto:joaolucasfreitaslul@gmail.com"
             style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
           >
-            <Mail size={16} /> Email
+            <Mail size={16} /> Email: joaolucasfreitaslul@gmail.com
           </a>
           <span
             style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
