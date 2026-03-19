@@ -1,0 +1,75 @@
+/* Layout Base (Mobile First - Telas pequenas) */
+.portfolio-layout {
+  max-width: 1100px; /* Aumentamos a largura máxima para espalhar mais no desktop */
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column; /* Um embaixo do outro */
+  gap: 4rem;
+}
+
+.portfolio-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column; /* No celular, os contatos ficam em lista vertical */
+  gap: 1rem;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #a0a0a0;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/* Telas Médias (Tablets) */
+@media (min-width: 768px) {
+  .contact-links {
+    flex-direction: row; /* Contatos ficam lado a lado */
+    flex-wrap: wrap;
+  }
+}
+
+/* Telas Grandes (Desktop - Espalhando pelo horizonte) */
+@media (min-width: 1024px) {
+  .portfolio-layout {
+    flex-direction: row; /* O layout principal vira lado a lado */
+    align-items: flex-start;
+    padding: 6rem 2rem;
+    gap: 4rem;
+  }
+
+  .portfolio-sidebar {
+    flex: 1; /* Ocupa 1 parte do espaço */
+    position: sticky; /* EFEITO INCRÍVEL: Trava a barra lateral enquanto a tela rola! */
+    top: 6rem;
+  }
+
+  .portfolio-content {
+    flex: 1.5; /* Ocupa um pouco mais de espaço que a barra lateral */
+  }
+}
+
+/* === Estilos para o ProjectItem === */
+.project-article {
+  display: flex;
+  flex-direction: column; /* Mobile: Título em cima, botão embaixo */
+  align-items: flex-start;
+  gap: 1rem;
+  border-bottom: 1px dashed #333;
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .project-article {
+    flex-direction: row; /* Desktop: Título na esquerda, botão na direita */
+    justify-content: space-between;
+    align-items: center;
+  }
+}
