@@ -70,6 +70,12 @@ const projects = [
 
 const experiences = [
   {
+    company: "INDT",
+    period: "2025",
+    role: "QA",
+    description: "Atuação profissional como QA no INDT.",
+  },
+  {
     company: "BLOMAQ",
     period: "Jan. 2024 — jun. 2024",
     role: "Estagiário de TI e Desenvolvimento .NET",
