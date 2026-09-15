@@ -2,7 +2,7 @@
 
 # João Lucas Freitas — Portfólio
 
-**Desenvolvedor Backend .NET & QA**
+**Desenvolvedor Backend .NET**
 
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](#)
 [![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](#)
@@ -17,7 +17,7 @@
 
 Bem-vindo ao repositório do meu portfólio pessoal! Mais do que apenas um site, esta é uma experiência interativa construída para refletir minha identidade e evolução como desenvolvedor.
 
-O site apresenta minha experiência em desenvolvimento .NET e qualidade de software, com uma seleção dos projetos mais recentes e relevantes do meu GitHub. O visual preserva a personalidade técnica do portfólio original em uma interface mais clara, moderna e acessível.
+O site apresenta minha experiência em desenvolvimento .NET, com uma seleção dos projetos mais recentes e relevantes do meu GitHub. O visual preserva a personalidade técnica do portfólio original em uma interface mais clara, moderna e acessível.
 
 ## 🚀 Features (O que tem debaixo do capô?)
 

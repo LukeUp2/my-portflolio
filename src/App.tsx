@@ -70,13 +70,6 @@ const projects = [
 
 const experiences = [
   {
-    company: "INDT",
-    period: "Abr. 2025 — atual",
-    role: "Estagiário de QA",
-    description:
-      "Análise de solicitações de clientes, investigação e reporte de bugs, com testes manuais em Android Enterprise e Secure Folder.",
-  },
-  {
     company: "BLOMAQ",
     period: "Jan. 2024 — jun. 2024",
     role: "Estagiário de TI e Desenvolvimento .NET",
@@ -102,7 +95,7 @@ const experiences = [
 const stackGroups = [
   { label: "Backend", items: ["C#", "ASP.NET Core", ".NET 8–10", "REST APIs"] },
   { label: "Dados", items: ["PostgreSQL", "SQL Server", "Entity Framework"] },
-  { label: "Qualidade", items: ["Testes manuais", "Análise de bugs", "Swagger/OpenAPI"] },
+  { label: "Práticas", items: ["Clean Architecture", "JWT", "Swagger/OpenAPI"] },
   { label: "Entrega", items: ["Docker", "Git", "GitHub Actions", "Vercel"] },
 ];
 
@@ -132,8 +125,8 @@ function App() {
             <p className="eyebrow">Olá, eu sou João Lucas Freitas</p>
             <h1>Backend sólido.<br />Produtos que <em>funcionam.</em></h1>
             <p className="hero-description">
-              Desenvolvedor .NET e profissional de QA. Transformo regras de
-              negócio em APIs organizadas, seguras e prontas para evoluir.
+              Desenvolvedor Backend .NET. Transformo regras de negócio em APIs
+              organizadas, seguras e prontas para evoluir.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projetos">
@@ -151,7 +144,7 @@ function App() {
               <span className="code-purple">public sealed class</span>{" "}<span className="code-yellow">Developer</span>
               {"\n"}{"{"}
               {"\n  "}<span className="code-blue">Focus</span> = <span className="code-green">"Backend .NET"</span>;
-              {"\n  "}<span className="code-blue">Mindset</span> = <span className="code-green">"Quality first"</span>;
+              {"\n  "}<span className="code-blue">Mindset</span> = <span className="code-green">"Clean architecture"</span>;
               {"\n  "}<span className="code-blue">Location</span> = <span className="code-green">"Manaus"</span>;
               {"\n"}{"}"}
             </code></pre>
@@ -192,11 +185,11 @@ function App() {
         <section className="section about-section" id="sobre">
           <div className="about-copy">
             <p className="eyebrow">Como eu trabalho</p>
-            <h2>Código legível, contexto claro e qualidade desde o início.</h2>
-            <p>Minha experiência combina desenvolvimento e QA. Isso me ajuda a construir pensando não apenas no caminho feliz, mas também nos limites, falhas e detalhes que tornam um software confiável.</p>
+            <h2>Código legível, contexto claro e backend preparado para evoluir.</h2>
+            <p>Construo soluções com foco em regras de negócio bem definidas, responsabilidades separadas e decisões técnicas que facilitam a manutenção e a evolução do produto.</p>
             <div className="principles">
               <div><Server aria-hidden="true" /><span>APIs e regras de negócio bem estruturadas</span></div>
-              <div><ShieldCheck aria-hidden="true" /><span>Qualidade e segurança como parte da entrega</span></div>
+              <div><ShieldCheck aria-hidden="true" /><span>Segurança e consistência como parte da arquitetura</span></div>
               <div><Braces aria-hidden="true" /><span>Arquitetura simples, legível e evolutiva</span></div>
             </div>
             <div className="education">
