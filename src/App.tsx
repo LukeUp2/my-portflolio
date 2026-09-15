@@ -199,6 +199,11 @@ function App() {
               <div><ShieldCheck aria-hidden="true" /><span>Qualidade e segurança como parte da entrega</span></div>
               <div><Braces aria-hidden="true" /><span>Arquitetura simples, legível e evolutiva</span></div>
             </div>
+            <div className="education">
+              <span>Formação</span>
+              <p><strong>Ciência da Computação</strong> · Universidade Estácio de Sá</p>
+              <p><strong>Formação C#</strong> · Rocketseat ONE</p>
+            </div>
           </div>
           <div className="stack-card">
             <div className="stack-card-title"><Sparkles size={18} aria-hidden="true" /> Stack atual</div>

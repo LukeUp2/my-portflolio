@@ -77,6 +77,10 @@
 .principles { display: grid; gap: 1rem; margin-top: 2.2rem; }
 .principles div { display: flex; align-items: center; gap: .8rem; color: #c5ccd0; font-size: .88rem; }
 .principles svg { width: 18px; color: var(--accent); flex: 0 0 auto; }
+.education { margin-top: 2.4rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.education > span { display: block; margin-bottom: .85rem; color: #667277; font: .62rem "DM Mono", monospace; letter-spacing: .09em; text-transform: uppercase; }
+.education p { margin: .45rem 0; color: var(--muted); font-size: .82rem; }
+.education strong { color: #d8dee1; font-weight: 700; }
 .stack-card { border: 1px solid var(--line); border-radius: 16px; background: var(--surface); overflow: hidden; }
 .stack-card-title { display: flex; align-items: center; gap: .6rem; padding: 1.15rem 1.3rem; border-bottom: 1px solid var(--line); color: var(--text); font: 500 .78rem "DM Mono", monospace; }
 .stack-card-title svg { color: var(--accent); }
