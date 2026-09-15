@@ -73,7 +73,7 @@ const experiences = [
     company: "INDT",
     period: "2025",
     role: "QA",
-    description: "Atuação profissional como QA no INDT.",
+    description: "",
   },
   {
     company: "BLOMAQ",
@@ -182,7 +182,10 @@ function App() {
               <article className="timeline-item" key={experience.company}>
                 <div className="timeline-marker" aria-hidden="true" />
                 <div className="timeline-meta"><h3>{experience.company}</h3><span>{experience.period}</span></div>
-                <div><h4>{experience.role}</h4><p>{experience.description}</p></div>
+                <div>
+                  <h4>{experience.role}</h4>
+                  {experience.description && <p>{experience.description}</p>}
+                </div>
               </article>
             ))}
           </div>
