@@ -1,13 +1,13 @@
 <div align="center">
 
-# >\_ JOÃO_LUCAS_FREITAS.exe
+# João Lucas Freitas — Portfólio
 
-**Desenvolvedor BackEnd ASP.NET CORE JR** 💻
+**Desenvolvedor Backend .NET & QA**
 
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](#)
 [![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](#)
 
-_Visite o portfólio online: [[My Portfolio :)](https://my-portflolio.vercel.app/)]_
+**[Acessar o portfólio](https://my-portflolio.vercel.app/)**
 
 </div>
 
@@ -17,19 +17,36 @@ _Visite o portfólio online: [[My Portfolio :)](https://my-portflolio.vercel.app
 
 Bem-vindo ao repositório do meu portfólio pessoal! Mais do que apenas um site, esta é uma experiência interativa construída para refletir minha identidade e evolução como desenvolvedor.
 
-Inspirado na estética de **terminais clássicos** e com uma vibe minimalista (com direito a uma trilha sonora retrô no player de áudio 🎧), este projeto é onde minhas habilidades de código encontram minha criatividade. Embora meu foco principal seja a construção de APIs e arquiteturas robustas no **BackEnd com C# e ASP.NET Core**, desenvolvi este portfólio utilizando **React + TypeScript (Vite)** para demonstrar versatilidade, componentização limpa e domínio na criação de interfaces modernas.
+O site apresenta minha experiência em desenvolvimento .NET e qualidade de software, com uma seleção dos projetos mais recentes e relevantes do meu GitHub. O visual preserva a personalidade técnica do portfólio original em uma interface mais clara, moderna e acessível.
 
 ## 🚀 Features (O que tem debaixo do capô?)
 
-- **Estética Hacker/Terminal:** Interface 100% customizada em CSS puro, simulando terminais com cursores piscantes e tipografia monoespaçada (`VT323` e `Space Mono`).
-- **Custom Music Player:** Um componente flutuante desenvolvido do zero, controlando estado e volume da BGM ambiente para máxima imersão.
-- **Arquitetura Mobile First:** Layout responsivo que transiciona suavemente de uma coluna única fluida para um elegante design de barra lateral fixa (Sticky Sidebar) em desktops.
-- **Componentização:** Código limpo e modular, facilitando a adição de novas "Fases" (projetos) no futuro.
+- **Interface responsiva:** experiência otimizada para desktop, tablet e celular.
+- **Identidade técnica:** referências sutis a código e terminal sem comprometer a leitura.
+- **Acessibilidade:** hierarquia semântica, foco visível, link de salto e suporte a movimento reduzido.
+- **SEO básico:** idioma, título, descrição e metadados sociais atualizados.
+- **Player opcional:** música ambiente desativada por padrão e controles acessíveis.
 
 ## 🎮 Fases Concluídas (Meus Projetos em Destaque)
 
 Este portfólio atua como um "Hub" para as minhas principais aventuras no código. Alguns dos sistemas que você encontrará por lá:
 
-- `LivrariaPlus.Api` - API RESTful completa para gerenciamento de livrarias.
-- `TaskManager` - Sistema de gerenciamento de tarefas estruturado para alta performance.
-- `RpgSheet.Api` - Backend para gerenciar fichas de personagens de RPG, com deploy automatizado.
+- `EasyMDO` — produto full-stack para gestão de membros, grupos e acompanhamento semanal.
+- `RpgSheet.Api` — API para fichas de RPG, perícias e retratos.
+- `d20-tools` — aplicação full-stack para ferramentas de RPG.
+- `CashFlow` — API de fluxo de caixa organizada em camadas.
+- `TaskManager` — API de tarefas com Clean Architecture.
+
+## Desenvolvimento local
+
+```bash
+npm install
+npm run dev
+```
+
+Validação de produção:
+
+```bash
+npm run lint
+npm run build
+```

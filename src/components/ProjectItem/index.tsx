@@ -1,54 +1,40 @@
-import { FolderGit2, ExternalLink } from "lucide-react";
+import { ArrowUpRight, FolderGit2 } from "lucide-react";
+
+interface ProjectLink {
+  label: string;
+  href: string;
+}
 
 interface ProjectItemProps {
   title: string;
+  eyebrow: string;
   description: string;
-  repoLink: string;
+  stack: string[];
+  links: ProjectLink[];
+  index: number;
+  featured?: boolean;
 }
 
-export function ProjectItem({
-  title,
-  description,
-  repoLink,
-}: ProjectItemProps) {
+export function ProjectItem({ title, eyebrow, description, stack, links, index, featured = false }: ProjectItemProps) {
   return (
-    <article className="project-article">
-      <div style={{ flex: 1, paddingRight: "1rem" }}>
-        <h3
-          style={{
-            fontSize: "1.6rem",
-            color: "#eeeeee",
-            fontFamily: "'VT323', monospace",
-            display: "flex",
-            alignItems: "center",
-            gap: "0.5rem",
-          }}
-        >
-          <FolderGit2 size={20} color="#4ade80" />
-          {title}
-        </h3>
-        <p
-          style={{ fontSize: "0.9rem", marginTop: "0.5rem", color: "#a0a0a0" }}
-        >
-          {description}
-        </p>
+    <article className={`project-card${featured ? " project-card-featured" : ""}`}>
+      <div className="project-topline">
+        <span className="project-icon"><FolderGit2 size={20} aria-hidden="true" /></span>
+        <span className="project-number">0{index}</span>
       </div>
-
-      <a
-        href={repoLink}
-        target="_blank"
-        rel="noreferrer"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "0.5rem",
-          fontSize: "0.9rem",
-          border: "1px solid #333",
-          padding: "0.4rem 0.8rem",
-        }}
-      >
-        [ repositório ] <ExternalLink size={14} />
-      </a>
+      <p className="project-eyebrow">{eyebrow}</p>
+      <h3>{title}</h3>
+      <p className="project-description">{description}</p>
+      <div className="project-stack" aria-label="Tecnologias">
+        {stack.map((item) => <span key={item}>{item}</span>)}
+      </div>
+      <div className="project-links">
+        {links.map((link) => (
+          <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
+            {link.label} <ArrowUpRight size={15} aria-hidden="true" />
+          </a>
+        ))}
+      </div>
     </article>
   );
 }
