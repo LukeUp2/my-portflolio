@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title id="title">Símbolo quadrado JLF.</title>
+  <desc id="desc">Marca pessoal de João Lucas Freitas em um quadrado grafite.</desc>
+  <rect width="512" height="512" rx="104" fill="#07090A"/>
+  <rect x="1" y="1" width="510" height="510" rx="103" fill="none" stroke="#FFFFFF" stroke-opacity=".1" stroke-width="2"/>
+  
+  <g transform="translate(80.500 176.000)">
+    <path d="M61.260 133.680Q46.140 133.680 38.020 125.210Q29.900 116.740 29.900 101.900L44.880 101.900Q45.020 109.600 48.800 114.920Q52.580 120.240 61.120 120.240Q69.380 120.240 72.950 115.060Q76.520 109.880 76.520 102.180L76.520 34L91.360 34L91.360 102.180Q91.360 117.300 83.380 125.490Q75.400 133.680 61.260 133.680 M169.480 132L106.340 132L106.340 34L121.180 34L121.180 118.700L169.480 118.700 M198.600 132L183.760 132L183.760 34L246.620 34L246.620 47.860L198.600 47.860L198.600 77.820L238.920 77.820L238.920 90.840L198.600 90.840" fill="#E9EDF0" stroke="#E9EDF0" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke fill"/>
+    <path d="M291 132.840Q285.820 132.840 282.180 129.410Q278.540 125.980 278.540 121.080Q278.540 116.180 282.180 112.820Q285.820 109.460 291 109.460Q296.320 109.460 299.890 112.820Q303.460 116.180 303.460 121.080Q303.460 125.980 299.890 129.410Q296.320 132.840 291 132.840" fill="#6EE7B7" stroke="#6EE7B7" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke fill"/>
+  </g>
+</svg>
