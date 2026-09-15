@@ -4,7 +4,7 @@
 
 # João Lucas Freitas — Portfólio
 
-**Desenvolvedor Backend .NET**
+**Desenvolvedor Backend .NET em transição para Cibersegurança**
 
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=07110D)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -17,7 +17,9 @@
 
 ## Sobre
 
-Portfólio profissional de João Lucas Freitas, desenvolvido para apresentar sua trajetória, especialização em Backend .NET e projetos recentes de forma clara e objetiva.
+Portfólio profissional de João Lucas Freitas, desenvolvido para apresentar sua trajetória, especialização em Backend .NET, transição para cibersegurança e projetos recentes de forma clara e objetiva.
+
+Atualmente, estou cursando o **Junior Cybersecurity Analyst Path**, da **Hack The Box Academy** — uma trilha de 20 módulos preparatória para a certificação CJCA.
 
 A interface combina uma estética técnica com uma apresentação moderna, responsiva e acessível. A identidade visual é construída ao redor da assinatura **JLF.**, preservando referências sutis a código sem comprometer a leitura.
 
@@ -48,6 +50,7 @@ A interface combina uma estética técnica com uma apresentação moderna, respo
 - Foco visível, link de salto e suporte a movimento reduzido.
 - Metadados de idioma, descrição, tema e compartilhamento social.
 - Conteúdo profissional direcionado a oportunidades em Backend .NET.
+- Formação em cibersegurança apresentada como uma transição profissional em andamento.
 
 ## Kit de marca JLF.
 

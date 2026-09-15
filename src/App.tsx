@@ -102,6 +102,7 @@ const stackGroups = [
   { label: "Backend", items: ["C#", "ASP.NET Core", ".NET 8–10", "REST APIs"] },
   { label: "Dados", items: ["PostgreSQL", "SQL Server", "Entity Framework"] },
   { label: "Práticas", items: ["Clean Architecture", "JWT", "Swagger/OpenAPI"] },
+  { label: "Segurança em formação", items: ["Hack The Box Academy", "Fundamentos", "Segurança ofensiva", "Segurança defensiva"] },
   { label: "Entrega", items: ["Docker", "Git", "GitHub Actions", "Vercel"] },
 ];
 
@@ -131,8 +132,9 @@ function App() {
             <p className="eyebrow">Olá, eu sou João Lucas Freitas</p>
             <h1>Backend sólido.<br />Produtos que <em>funcionam.</em></h1>
             <p className="hero-description">
-              Desenvolvedor Backend .NET. Transformo regras de negócio em APIs
-              organizadas, seguras e prontas para evoluir.
+              Desenvolvedor Backend .NET em transição para cibersegurança.
+              Atualmente curso a formação Junior Cybersecurity Analyst, da
+              Hack The Box Academy.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projetos">
@@ -150,6 +152,7 @@ function App() {
               <span className="code-purple">public sealed class</span>{" "}<span className="code-yellow">Developer</span>
               {"\n"}{"{"}
               {"\n  "}<span className="code-blue">Focus</span> = <span className="code-green">"Backend .NET"</span>;
+              {"\n  "}<span className="code-blue">Learning</span> = <span className="code-green">"Cybersecurity"</span>;
               {"\n  "}<span className="code-blue">Mindset</span> = <span className="code-green">"Clean architecture"</span>;
               {"\n  "}<span className="code-blue">Location</span> = <span className="code-green">"Manaus"</span>;
               {"\n"}{"}"}
@@ -157,7 +160,7 @@ function App() {
             <div className="panel-stats">
               <div><strong>2021</strong><span>início da jornada</span></div>
               <div><strong>5</strong><span>projetos selecionados</span></div>
-              <div><strong>.NET</strong><span>especialidade</span></div>
+              <div><strong>HTB</strong><span>formação em curso</span></div>
             </div>
           </div>
         </section>
@@ -205,6 +208,10 @@ function App() {
               <span>Formação</span>
               <p><strong>Ciência da Computação</strong> · Universidade Estácio de Sá</p>
               <p><strong>Formação C#</strong> · Rocketseat ONE</p>
+              <p>
+                <strong>Junior Cybersecurity Analyst Path</strong> · Hack The Box Academy
+                <small>Em andamento · trilha preparatória para a certificação CJCA · 20 módulos</small>
+              </p>
             </div>
           </div>
           <div className="stack-card">
